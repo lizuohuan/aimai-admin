@@ -1,0 +1,82 @@
+.font-red{color: red;}
+.fa-refresh{font-size: 14px;cursor: pointer}
+/*覆盖样式*/
+.layui-form-item .layui-input-inline{width: 300px;}
+[ng-cloak] {display: none;}
+/*左侧菜单背景颜色覆盖*/
+.layui-nav{background-color: #34393D}
+.layui-bg-black{background-color: #34393D}
+.layui-nav-tree .layui-nav-bar{background-color: #4BC792}
+.layui-nav .layui-nav-item a{padding: 0 25px}
+.fa{width: 18px;}
+.mui-checkbox input[type=checkbox]:checked:before, .mui-radio input[type=radio]:checked:before{color:#C4A378 !important}
+
+.fa-list{font-size: 12px !important}
+.notData{text-align: center;color: #666;}
+.money{font-weight: bold;color: red;}
+textarea{padding: 10px;min-height: 100px;min-width: 300px;}
+/* dataTables列内容居中 */
+table td, table th{
+    text-align:center !important;
+}
+
+
+/*dataTable样式*/
+.table-bordered{ border-spacing: 0 !important; border-collapse: collapse !important;}
+table.dataTable.no-footer{border-bottom: none}
+table.dataTable thead th{border-bottom: 1px solid #e2e2e2}
+table.dataTable thead th, table.dataTable thead td{text-align: left}
+.dataTables_wrapper .dataTables_paginate .paginate_button{padding: 0.3em 1em;display: inline;border: 1px solid #e2e2e2;margin-left: -1px;}
+.dataTables_wrapper .dataTables_paginate .paginate_button:active, .dataTables_wrapper .dataTables_paginate .paginate_button:focus{border: 1px solid inherit;}
+.dataTables_wrapper .dataTables_paginate .paginate_button.active{background-color: #009688;border: 1px solid #009688;color: #fff !important;}
+.dataTables_wrapper .dataTables_paginate .paginate_button.active a{color: #fff !important;}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled a{cursor: not-allowed;color: #999 !important}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled a:hover{cursor: not-allowed;color: #999 !important}
+.dataTables_wrapper .dataTables_paginate{margin-top: -1.5em !important}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active{border: 1px solid #e2e2e2;cursor: not-allowed;color: #999 !important}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{background: #009688;color: #fff !important}
+table.dataTable{margin-top: 0px !important;margin-bottom: 0px !important;}
+.table-scrollable{border: 1px solid #e2e2e2;}
+table.table-bordered.dataTable{border-collapse: collapse !important;}
+.layui-form{position: relative}
+.dataTables_processing{width: 100%;position: absolute;height: 100%;text-align: center; padding-top: 100px;}
+
+./* Firefox */
+@-moz-document url-prefix() {
+    .layui-layer-dialog{
+        height: inherit !important;
+    }
+}
+.layui-layer-dialog{
+    height: inherit !important;
+}
+
+input[disabled], select[disabled]{
+    color: #d2d2d2!important;
+    cursor: not-allowed!important;
+    border-color: #eee!important;
+}
+input[disabled]:hover, select[disabled]:hover{
+    color: #d2d2d2!important;
+    cursor: not-allowed!important;
+    border-color: #eee!important;
+}
+.layui-upload-file{cursor: pointer !important}
+
+body{font-size: 12px;}
+#dataTable td{padding: 6px 10px;font-size: 12px;}
+div.layui-input{cursor: not-allowed!important;}
+
+/*徽章*/
+.badgeStatus{
+    color: #fff;font-size: 12px;padding: 3px 6px;
+    border-radius: 4px;
+}
+
+[ng-cloak] {
+    display: none;
+}
+
+.text-center{text-align: center}
+.hide{display: none}
+.show{display: block}
